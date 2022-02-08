@@ -21,7 +21,7 @@ You can hit the spacebar to open the UI in a browser.
 - > If you see an "Update error" message like the one below, then just follow the instructions and allow that context:
     ```
     Stop! tap-beta2 might be production.
-    If you're sure you want to deploy there, add:
+    If you're sure you     want to deploy there, add:
         allow_k8s_contexts('tap-beta2')
     to your Tiltfile. Otherwise, switch k8s contexts and restart Tilt.
     ```
