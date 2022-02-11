@@ -15,3 +15,39 @@ spec:
   type: service
   lifecycle: experimental
   owner: fin-app-ms-1-team
+-------------------------------
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: finance-app
+  description: Finance Application
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: finance-app-team
+  domain: banking-apps
+-------------------------------
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: lending-app
+  description: Lending Application
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: lending-app-team
+  domain: banking-apps
+---------------------------------
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: fin-app-microservice-2-component
+  description: Microservice-2 of the Financial App
+  tags:
+    - tanzu
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=fin-app-ms-2'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: fin-app-ms-2-team
