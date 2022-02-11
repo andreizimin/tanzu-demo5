@@ -1,4 +1,4 @@
-# tanzu-java-web-app
+# Fin-app-microservice - Microservice of the Financial Application
 
 This is a sample of a Java Spring app that works with Tilt and the Tanzu Application Platform.
 
