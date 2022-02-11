@@ -12,6 +12,7 @@ metadata:
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=fin-app-ms-1'
 spec:
+  system: finance-app
   type: service
   lifecycle: experimental
   owner: fin-app-ms-1-team
@@ -54,6 +55,7 @@ metadata:
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=fin-app-ms-2'
 spec:
+  system: finance-app
   type: service
   lifecycle: experimental
   owner: fin-app-ms-2-team
@@ -70,6 +72,7 @@ metadata:
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=lend-app-ms-1'
 spec:
+  system: lending-app
   type: service
   lifecycle: experimental
   owner: lend-app-ms-1-team
@@ -86,6 +89,7 @@ metadata:
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=lend-app-ms-2'
 spec:
+  system: lending-app
   type: service
   lifecycle: experimental
   owner: lend-app-ms-2-team
