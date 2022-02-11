@@ -16,6 +16,7 @@ spec:
   lifecycle: experimental
   owner: fin-app-ms-1-team
 
+---
 
 apiVersion: backstage.io/v1alpha1
 kind: System
@@ -28,6 +29,7 @@ spec:
   owner: finance-app-team
   domain: banking-apps
 
+---
 
 apiVersion: backstage.io/v1alpha1
 kind: System
@@ -40,6 +42,7 @@ spec:
   owner: lending-app-team
   domain: banking-apps
 
+---
 
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -55,6 +58,7 @@ spec:
   lifecycle: experimental
   owner: fin-app-ms-2-team
 
+---
 
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -70,6 +74,7 @@ spec:
   lifecycle: experimental
   owner: lend-app-ms-1-team
 
+---
 
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -85,6 +90,7 @@ spec:
   lifecycle: experimental
   owner: lend-app-ms-2-team
 
+---
 
 apiVersion: backstage.io/v1alpha1
 kind: Domain
