@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Finance Application, Microservice 1, Branch main, Revision 0";
+		return "Finance Application, Microservice 1, Branch B, Revision 0";
 	}
 
 }
