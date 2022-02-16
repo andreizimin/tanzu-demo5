@@ -105,3 +105,16 @@ metadata:
     'backstage.io/techdocs-ref': dir:.
 spec:
   owner: banking-app-team
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: SupplyChain
+metadata:
+  name: ootb-supply-chain
+  description: Finance Application
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: finance-app-team
+  domain: banking-apps
