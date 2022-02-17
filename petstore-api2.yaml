@@ -6,16 +6,16 @@ metadata:
   tags:
     - store
     - rest
-  links:
-    - url: https://github.com/swagger-api/swagger-petstore
-      title: GitHub Repo
-      icon: github
-    - url: https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/petstore.yaml
-      title: API Spec
-      icon: code
-    - url: https://docs.google.com/document/d/1HZQiV_VUkmVzjh1CaGcf4DhAXLeFIUeaoUXrARWlgGI/edit
-      icon: docs
-      title: Plugin Guide
+#  links:
+#    - url: https://github.com/swagger-api/swagger-petstore
+#      title: GitHub Repo
+#      icon: github
+#    - url: https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/petstore.yaml
+#      title: API Spec
+#      icon: code
+#    - url: https://docs.google.com/document/d/1HZQiV_VUkmVzjh1CaGcf4DhAXLeFIUeaoUXrARWlgGI/edit
+#      icon: docs
+#      title: Plugin Guide
 spec:
   type: openapi
   lifecycle: experimental
