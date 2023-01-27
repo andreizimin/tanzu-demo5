@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: simple-app
+  description: Some dummy application
+  annotations:
+    gitlab.com/project-slug: esback/fixtures/simple-app
+spec:
+  type: service
+  owner: esback@vmware.com
+  lifecycle: production
